@@ -4,6 +4,7 @@
   --black: #222;
 }
 
+
 *{
   margin: 0;
   padding: 0;
@@ -19,10 +20,10 @@ body {
   /* max-width: 1400px; */
   /* background-image: url('back.png'); */
   background-color: var(--white);
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   /* background-size: fill; */
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
 
 body::-webkit-scrollbar {
@@ -35,13 +36,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 h1 {
-  font-size: 8rem;
+  /* font-size: 8rem; */
   font-family: 'Yrsa', serif;
   color: var(--green);
-}
-
-h2 {
-  font-size: 5rem;
 }
 
 h2, h3, h4 {
@@ -49,114 +46,8 @@ h2, h3, h4 {
 }
 
 p, li, a, span {
-  font-size: 1.6rem;
+  /* font-size: 1.6rem; */
   font-family: 'Hind Madurai', sans-serif;
-}
-
-.name-nav {
-  color: var(--green);
-  font-family: 'Yrsa', serif;
-  font-size: 4rem;
-}
-
-nav{
-  background: #f2f2f285;
-  backdrop-filter: blur( 5.0px );
-  -webkit-backdrop-filter: blur( 3.0px );
-  height: 6rem;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-nav ul{
-  margin-right: 2rem;
-}
-nav ul li{
-  display: inline-block;
-  /* line-height: 8rem; */
-  margin: 0 .5rem;
-  list-style: none !important;
-}
-
-li a.active, li a:hover {
-  color: var(--black);
-  transition: .2s ease-in-out;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: var(--black);
-  font-size: 2rem;
-  list-style: none;
-}
-
-nav ul li a:hover {
-  color: var(--black);
-}
-
-nav ul li a::after {
-  content: '';
-  width: 0px;
-  height: 3px;
-  display: block;
-  background: var(--green);
-  transition: 300ms;
-}
-
-nav ul li a:hover::after {
-  width: 100%;
-  color: var(--black);
-}
-li a.active, li a:hover{
-  transition: .5s;
-}
-.checkbtn{
-  font-size: 3rem;
-  color: var(--green);
-  /* float: right; */
-  line-height: 8rem;
-  margin-right: 4rem;
-  cursor: pointer;
-  display: none;
-}
-#check{
-  display: none;
-}
-
-main {
-  margin-top: 8rem;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  /* flex-direction: column; */
-  /* align-items: center; */
-  justify-content: center;
-}
-
-.presentation {
-  max-width: 140rem;
-  width: 80%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-bottom: -5rem;
-}
-
-.presentation-1, .presentation-2 {
-  margin: 0 1rem;
-  width: 50%;
-}
-
-.presentation-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.presentation-2 img {
-  width: 100%;
 }
 
 .about {
@@ -202,7 +93,7 @@ main {
 
 .rrss i{
   color: var(--white);
-  font-size: 3rem;
+  /* font-size: 3rem; */
   margin: 1rem 0;
 }
 
